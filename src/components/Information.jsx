@@ -96,10 +96,10 @@ export default function Information(props) {
                 )}
             </div>
             <div className='flex items-center gap-4 mx-auto '>
-                <button onClick={handleCopy} title="Copy" className='bg-white  hover:text-blue-500 duration-200 text-blue-300 px-2 aspect-square grid place-items-center rounded'>
+                <button onClick={handleCopy} title="Copy" className='bg-white  hover:text-purple-500 duration-200 text-purple-300 px-2 aspect-square grid place-items-center rounded'>
                     <i className="fa-solid fa-copy"></i>
                 </button>
-                <button onClick={handleDownload} title="Download" className='bg-white  hover:text-blue-500 duration-200 text-blue-300 px-2 aspect-square grid place-items-center rounded'>
+                <button onClick={handleDownload} title="Download" className='bg-white  hover:text-purple-500 duration-200 text-purple-300 px-2 aspect-square grid place-items-center rounded'>
                     <i className="fa-solid fa-download"></i>
                 </button>
             </div>
